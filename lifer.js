@@ -14,9 +14,10 @@ console.log(`Home: ${HomeItems[homeItem]}`);
 const SelfItems = [
   "Piano",
   //"Bridge",
-  "Poker",
+  //"Poker",
   "Read",
   "Exercise",
+  "Magic",
 ];
 
 const selfItem = Math.floor(Math.random() * SelfItems.length);
@@ -30,7 +31,7 @@ const SideProjectItems = [
   //"Interplan",
   //"Opensource",
   //"Poker",
-  "Damn Interesting",
+  //"Damn Interesting",
   "Predict Market",
 ];
 const sideProjectItem = Math.floor(Math.random() * SideProjectItems.length);
