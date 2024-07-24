@@ -6,7 +6,7 @@ const MainCategories = ["Home", "Self", "Side Project"];
 const category = Math.floor(Math.random() * MainCategories.length);
 console.log(`MainCategory: ${MainCategories[category]}`);
 
-const HomeItems = ["Venesa", "Rex", "Raine", "All", "Home Improvement"];
+const HomeItems = ["Venesa", "Rex", "Raine", "Rea", "All", "Home Improvement"];
 
 const homeItem = Math.floor(Math.random() * HomeItems.length);
 console.log(`Home: ${HomeItems[homeItem]}`);
