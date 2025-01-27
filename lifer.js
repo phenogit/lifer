@@ -12,12 +12,12 @@ const homeItem = Math.floor(Math.random() * HomeItems.length);
 console.log(`Home: ${HomeItems[homeItem]}`);
 
 const SelfItems = [
-  "Piano",
+  //"Piano",
   //"Bridge",
   //"Poker",
   "Read",
   "Exercise",
-  "Magic",
+  //"Magic",
 ];
 
 const selfItem = Math.floor(Math.random() * SelfItems.length);
@@ -32,7 +32,8 @@ const SideProjectItems = [
   //"Opensource",
   //"Poker",
   //"Damn Interesting",
-  "Predict Market",
+  //"Predict Market",
+  "Portfolio",
 ];
 const sideProjectItem = Math.floor(Math.random() * SideProjectItems.length);
 console.log(`Side Project: ${SideProjectItems[sideProjectItem]}`);
