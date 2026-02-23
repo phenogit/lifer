@@ -6,17 +6,17 @@ const MainCategories = ["Home", "Self", "Side Project"];
 const category = Math.floor(Math.random() * MainCategories.length);
 console.log(`MainCategory: ${MainCategories[category]}`);
 
-const HomeItems = ["Venesa", "Rex", "Raine", "Rea", "All", "Home Improvement"];
+const HomeItems = ["Venesa", "Rex", "Raine", "Reah", "All", "Home Improvement"];
 
 const homeItem = Math.floor(Math.random() * HomeItems.length);
 console.log(`Home: ${HomeItems[homeItem]}`);
 
 const SelfItems = [
   //"Piano",
-  //"Bridge",
+  "Bridge",
   //"Poker",
-  "Read",
-  "Exercise",
+  //"Read",
+  //"Exercise",
   //"Magic",
 ];
 
@@ -33,7 +33,8 @@ const SideProjectItems = [
   //"Poker",
   //"Damn Interesting",
   //"Predict Market",
-  "Portfolio",
+  //"Portfolio",
+  "Quantem Computing",
 ];
 const sideProjectItem = Math.floor(Math.random() * SideProjectItems.length);
 console.log(`Side Project: ${SideProjectItems[sideProjectItem]}`);
@@ -48,7 +49,7 @@ switch (category) {
     break;
   case 2:
     console.log(
-      `${MainCategories[category]}: ${SideProjectItems[sideProjectItem]}`
+      `${MainCategories[category]}: ${SideProjectItems[sideProjectItem]}`,
     );
     break;
   default:
