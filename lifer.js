@@ -32,9 +32,9 @@ const SideProjectItems = [
   //"Opensource",
   //"Poker",
   //"Damn Interesting",
-  //"Predict Market",
+  "Predict Market",
   //"Portfolio",
-  "Quantem Computing",
+  //"Quantem Computing",
 ];
 const sideProjectItem = Math.floor(Math.random() * SideProjectItems.length);
 console.log(`Side Project: ${SideProjectItems[sideProjectItem]}`);
